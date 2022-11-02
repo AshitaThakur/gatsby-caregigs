@@ -1,0 +1,279 @@
+.slider_globe_main1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      253.42deg,
+      rgba(242, 197, 80, 0.2) 6.98%,
+      rgba(191, 218, 255, 0.2) 93.76%
+    ),
+    #faf4ff;
+  height: 820px;
+  margin-top: 50px;
+}
+
+.slider_globe {
+  width: 1450px;
+  height: 550px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides_globe {
+  display: flex;
+  width: 500%;
+  height: 500px;
+}
+
+.slides_globe input {
+  display: none;
+}
+
+.slide {
+  display: flex;
+  width: 1300px;
+  width: 20%;
+  transition: 2s;
+}
+
+.slide .icon_glob_outer {
+  width: 800px;
+  height: 500px;
+}
+
+/* ---css for manual slider--- */
+.navigation-manual {
+  position: absolute;
+  display: flex;
+  margin-top: 550px;
+  margin-left: 560px;
+  justify-content: center;
+}
+
+.manual-btn:not(:last-child) {
+  margin-left: 40px;
+}
+
+.manual-btn:not(:first-child) {
+  margin-left: 40px;
+}
+
+.manual-btn {
+  border: 2px solid #1271ee;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: -10px;
+}
+
+.manual-btn:hover {
+  background: #1271ee;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+.icon_glob_outer {
+  width: 100%;
+  display: flex;
+  margin: 5px;
+}
+
+.icon_section11 {
+  display: flex;
+  width: 500px;
+  margin: 0;
+  margin-left: 6rem;
+}
+
+.icon_section112 {
+  display: flex;
+  margin: 0;
+  width: 300px;
+  margin-left: 6rem;
+}
+
+.icon_section113 {
+  display: flex;
+  width: 300px;
+  margin: 0;
+  margin-left: 6rem;
+}
+
+.iconInside1 {
+  align-items: center;
+  align-content: center;
+}
+
+.globeRight {
+  margin-top: 3rem;
+}
+
+.globeRight_image {
+  width: 1000px;
+}
+
+/* --css for automatic navigation----  */
+// .navigation-auto {
+//   position: absolute;
+//   display: flex;
+//   width: 900px;
+// }
+
+.navigation-auto div {
+  border: 2px solid #3177d8;
+  padding: 10x;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+/* -------------slider11--- */
+
+.slider11 {
+  width: 1300px;
+  height: 500px;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.slides11 {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides11 input {
+  display: none;
+}
+
+.slide1 {
+  width: 20%;
+  transition: 2s;
+  // border: 1px solid red;
+  // width: 100vw;
+  // margin-left: 20px;
+  padding-left: 10px;
+}
+
+.slide1 .main_inside1 {
+  width: 800px;
+  height: 500px;
+}
+
+/* css for manual slide navigation---- */
+.navigation-manual1 {
+  position: absolute;
+  display: flex;
+  margin-top: 470px;
+  margin-left: 610px;
+  justify-content: center;
+}
+
+.manual-btn1 {
+  border: 2px solid #3177d8;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: -10px;
+}
+
+.manual-btn1:not(:last-child) {
+  margin-left: 5px;
+}
+
+.manual-btn1:not(:first-child) {
+  margin-left: 5px;
+}
+
+.manual-btn1:hover {
+  background: #1271ee;
+}
+
+.manual-btn1:active {
+  background: #1271ee;
+}
+
+#radio11:checked ~ .first1 {
+  margin-left: 0;
+}
+
+#radio22:checked ~ .first1 {
+  margin-left: -20%;
+}
+
+#radio33:checked ~ .first1 {
+  margin-left: -40%;
+}
+
+.slider11 .main_inside1 {
+  width: 1050px;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+}
+
+.main_inside1_left {
+  width: 45%;
+  height: 439px;
+  background: #d5ffd5;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main_inside1_right {
+  width: 55%;
+  height: 439px;
+  background: #fff8d4;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.right_content {
+  width: 410px;
+}
+
+.main_inside1_right_para1 {
+  color: #386cf5;
+  font-weight: 700;
+  font-size: 32px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main_inside1_right_para2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4e4e4e;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main_inside1 {
+  width: 1050px;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+}

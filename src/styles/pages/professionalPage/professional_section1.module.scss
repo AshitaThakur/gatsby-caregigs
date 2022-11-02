@@ -1,0 +1,47 @@
+.nursing_para {
+  font-weight: 600;
+  font-size: 32px;
+  color: #474755;
+  text-align: center;
+}
+
+.wrapper2 {
+  color: #474755;
+  margin-bottom: 50px;
+}
+
+.input3 {
+  width: 510px;
+  margin-left: 420px;
+  background: #f7f7f7;
+}
+
+.input2 {
+  width: 505px;
+  margin-left: 425px;
+  border-radius: 50px;
+  height: 63px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f7f7f7;
+  /* border: 1px solid red; */
+}
+
+.input2 a {
+  text-decoration: none;
+  color: #474755;
+  background: #f7f7f7;
+  padding: 1rem 2.8rem;
+  padding: 1.08rem 5.4rem;
+  border-radius: 50px;
+}
+
+.input2 a:hover {
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 1.08rem 5.4rem;
+  color: #ffffff;
+  background: #3177d8;
+  /* border: 1px solid #393939; */
+}

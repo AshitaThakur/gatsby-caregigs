@@ -1,0 +1,94 @@
+.MacImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MacBook_sectionn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon_sectionn1 {
+  width: 950px;
+
+  display: flex;
+  height: 150px;
+
+  justify-content: space-evenly;
+}
+
+.iconInside {
+  margin: 8px;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 120px;
+}
+
+.iconInside_Mcbook1 {
+  margin-top: -5px;
+}
+
+.iconInside_para_Mcbook1 {
+  margin-top: 2px;
+}
+
+.icon_sectionn2 {
+  width: 410px;
+  height: 150px;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconInside_para {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3177d8;
+  text-align: center;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconApply {
+  padding-top: 15px;
+}
+
+.iconInside_para_Mcbook2 {
+  margin-top: -3px;
+}
+
+/* --------------- */
+
+.icon_section11 {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  margin-bottom: 50px;
+}
+
+.iconInside_para1 {
+  padding-top: 0px;
+  margin: 0px;
+  font-weight: 700;
+  font-size: 45.5px;
+  width: 170px;
+  height: 60px;
+  text-align: start;
+}
+
+.iconInside_para2 {
+  // margin-top: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #474755;
+  text-align: start;
+  width: 170px;
+}

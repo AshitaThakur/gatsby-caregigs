@@ -1,0 +1,139 @@
+footer {
+  width: 100%;
+  height: 62vh;
+  /* border: 1px solid rgb(0, 204, 255); */
+}
+
+.footerMain {
+  width: 70%;
+  height: 50vh;
+  margin-top: 80px;
+  margin-left: 200px;
+  display: flex;
+  /* border: 1px solid rgb(55, 0, 255); */
+}
+
+.footerMainleft {
+  width: 50%;
+  height: 50vh;
+  /* border: 1px solid rgb(255, 0, 119); */
+}
+
+.logoPara1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2f2f36;
+  padding: 0px 10px;
+  margin-top: -20px;
+}
+
+.company {
+  font-weight: 600;
+  font-size: 32px;
+  color: #474755;
+  padding: 0px 10px;
+}
+
+.footerMainRight {
+  width: 50%;
+  height: 50vh;
+  /* border: 1px solid rgb(0, 225, 255); */
+}
+
+.logoPara2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2f2f36;
+  text-align: right;
+  margin-right: 28px;
+  /* padding: 0px 70px; */
+  padding-left: 70px;
+}
+
+.footerMid {
+  width: 80%;
+  height: 10vh;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red;  */
+}
+
+.footerNav {
+  align-items: center;
+}
+
+.form-box {
+  width: 901px;
+  height: 60.7px;
+  /* border: 1px solid #393939; */
+  border-radius: 50px;
+}
+
+.form-box_footer {
+  width: 101px;
+}
+
+.form-box_footer_input {
+  width: 451px;
+  height: 40.7px;
+}
+
+.form-box_footer_input {
+  /* border: 1px solid red; */
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.3rem;
+  width: 451px;
+  height: 40.7px;
+  border: 1px solid #393939;
+  border-radius: 50px;
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  color: #89929f;
+  z-index: -1;
+}
+
+.form-box input:focus {
+  outline: none;
+}
+
+.form-box_footer_button {
+  width: 101px;
+  font-size: 1rem;
+  border: none;
+  height: 42.5px;
+  background: #3177d8;
+  z-index: 1;
+  margin-left: 350px;
+  background-color: #386cf5;
+  color: #ffffff;
+  padding: 9px 26px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: #386cf5;
+    color: #ffffff;
+    padding: 9px 26px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+.copyright {
+  width: 100%;
+  height: 56px;
+  text-align: center;
+  justify-content: center;
+  background: #3177d8;
+  padding-top: 10px;
+}
+
+.copyrightPara {
+  font-weight: 300;
+  font-size: 12px;
+  color: #ffffff;
+}

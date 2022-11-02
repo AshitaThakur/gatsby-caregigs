@@ -1,0 +1,53 @@
+.choose_destination {
+  height: 400px;
+  align-items: center;
+}
+
+.icon_section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-left: 12rem;
+  margin-top: 4rem;
+}
+
+.icon_section2_inside {
+  align-items: center;
+  text-align: center;
+}
+
+.verticle_line {
+  margin-top: 5rem;
+  height: 71px;
+}
+
+.icon_section2_inside_para {
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  width: 10rem;
+  color: #3177d8;
+}
+
+.choose_destination_btn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.button2 {
+  text-decoration: none;
+  color: #f7f7f7;
+  padding: 1.08rem 2.2rem;
+  border-radius: 50px;
+  background: #3177d8;
+}
+
+.button2:hover {
+  text-decoration: none;
+  border-radius: 50px;
+  color: #ffffff;
+  background: #3776ce;
+}

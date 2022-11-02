@@ -1,0 +1,30 @@
+.student_header_image {
+  display: flex;
+  height: 512px;
+  width: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.image1 {
+  //background-image: url("./images/studentPage/UK.png");
+  height: 512px;
+  width: 802px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image2 {
+  //   background-image: url("./images/studentPage/india.png");
+  height: 512px;
+  width: 802px;
+  background-repeat: no-repeat;
+}
+
+.image3 {
+  //   background-image: url("./images/studentPage/abroad.png");
+  height: 512px;
+  width: 581px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}

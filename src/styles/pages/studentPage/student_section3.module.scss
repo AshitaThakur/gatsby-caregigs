@@ -1,0 +1,44 @@
+.popular_courses2 {
+  width: 100%;
+  height: 85vh;
+}
+
+.popular_courses_inside2 {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+
+.img_main_video {
+  height: 75vh;
+  margin: auto;
+  width: 75%;
+  display: flex;
+  gap: 1rem;
+}
+
+.video_img1 {
+  height: 65vh;
+  background-size: cover;
+  width: 70%;
+  //   background-image: url("./images/studentPage/mentor1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play_btn1,
+.play_btn2 {
+  width: 50px;
+  height: 50px;
+}
+
+.video_img2 {
+  height: 65vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  //   background-image: url("./images/studentPage/mentor2.png");
+}

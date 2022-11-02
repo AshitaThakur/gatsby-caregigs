@@ -1,0 +1,65 @@
+//global..
+@import "./global/global.scss";
+
+// layout..
+@import "./layout/header.module.scss";
+@import "./layout/footer.module.scss";
+
+//pages.....
+
+//home page..
+//home_banner
+@import "../styles/pages/homePage/home_hero.module.scss";
+//home-section1
+@import "../styles/pages/homePage/home_section1.scss";
+//Home-section2
+@import "../styles/pages/homePage/home_section2.scss";
+
+//Home-section3
+@import "../styles/pages/homePage/home_section3.scss";
+
+//Home-section4
+@import "../styles/pages/homePage/home_section4.scss";
+
+//Home-section5
+@import "../styles/pages/homePage/home_section5.scss";
+
+//Home-section6
+@import "../styles/pages/homePage/home_section6.scss";
+
+//Student page..
+
+//Student_banner
+@import "../styles/pages/studentPage/student_hero.module.scss";
+
+//Student_section1
+@import "../styles/pages/studentPage/student_section1.module.scss";
+
+//Student_section2
+@import "../styles/pages/studentPage/student_section2.module.scss";
+
+//Student_section3
+@import "../styles/pages/studentPage/student_section3.module.scss";
+
+//Student_section4
+@import "../styles/pages/studentPage/student_section4.module.scss";
+
+//Student_section5
+@import "../styles/pages/studentPage/student_section5.module.scss";
+
+//professional page..
+
+//Professional Hero
+@import "../styles/pages/professionalPage/professional_hero.module.scss";
+
+//Professional section1
+@import "../styles/pages/professionalPage/professional_section1.module.scss";
+
+//Professional section2
+@import "../styles/pages/professionalPage/professional_section2.module.scss";
+
+//Professional section3
+@import "../styles/pages/professionalPage/professional_section3.module.scss";
+
+//Professional section4
+@import "../styles/pages/professionalPage/professional_section4.module.scss";

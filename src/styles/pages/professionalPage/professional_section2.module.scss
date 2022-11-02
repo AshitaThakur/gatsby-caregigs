@@ -1,0 +1,162 @@
+.sliderb11 {
+  width: 1300px;
+  height: 500px;
+  // margin-top: -20px;
+  border-radius: 10px;
+  background-color: #ffff;
+  overflow: hidden;
+}
+
+.slidesb11 {
+  width: 500%;
+  height: 500px;
+  display: flex;
+  background-color: #ffff;
+}
+
+.slidesb11 input {
+  display: none;
+}
+
+.slideb1 {
+  width: 20%;
+  transition: 2s;
+}
+
+.slideb1 .main_insideb1 {
+  width: 800px;
+  height: 500px;
+  padding-left: 2rem;
+}
+
+/* css for manual slide navigation---- */
+.navigation-manuabl1 {
+  position: absolute;
+  display: flex;
+  margin-top: 430px;
+  margin-left: 370px;
+  justify-content: center;
+}
+
+.manual-btnb1 {
+  border: 2px solid #3177d8;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.manual-btnb1:not(:last-child) {
+  margin-left: 5px;
+}
+
+.manual-btnb1:not(:first-child) {
+  margin-left: 5px;
+}
+
+.manual-btnb1:hover {
+  background: #1271ee;
+}
+
+.manual-btnb1:active {
+  background: #1271ee;
+}
+
+#radiob11:checked ~ .firstb1 {
+  margin-left: 0;
+}
+
+#radiob22:checked ~ .firstb1 {
+  margin-left: -20%;
+}
+
+#radiob33:checked ~ .first1 {
+  margin-left: -40%;
+}
+
+.sliderb11 .main_insideb1 {
+  width: 850px;
+  height: 439px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+}
+
+.main_insideb1_left {
+  width: 45%;
+  height: 439px;
+
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main_insideb1_left img {
+  height: 439px;
+}
+
+.right_contentb {
+  margin-top: -4.5rem;
+  width: 410px;
+}
+
+.main_inside1_right_parab1 {
+  color: #386cf5;
+  font-weight: 700;
+  font-size: 32px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main_inside1_right_parab2 {
+  margin-top: -0.8rem;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4e4e4e;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -1rem;
+}
+
+.main_insideb1_right {
+  align-items: flex-start;
+  justify-content: center;
+  width: 55%;
+  height: 459px;
+  background: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+  margin-left: 3.3rem;
+  padding: 0rem 2.5rem 0rem 3rem;
+}
+
+.btn4 {
+  width: 150px;
+}
+.btnS3 {
+  margin-top: 5rem;
+  margin-left: -10px;
+  background: #f7f7f7;
+  border-radius: 50px;
+  background-color: #3177d8;
+  // width: 340px;
+  text-decoration: none;
+  padding: 0.8rem;
+}
+.btnS3:hover {
+  padding: 0.8rem;
+}
+.btnS3 a {
+  color: #ffffff;
+  text-decoration: none;
+
+  padding-left: 1.5rem;
+}

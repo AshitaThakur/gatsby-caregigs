@@ -1,0 +1,135 @@
+/* ---------slider section----- */
+
+.slidera11 {
+  width: 1300px;
+  height: 500px;
+  margin-top: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slidesa11 {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slidesa11 input {
+  display: none;
+}
+
+.slidea1 {
+  width: 20%;
+  transition: 2s;
+}
+
+.slidea1 .main_insidea1 {
+  width: 800px;
+  height: 500px;
+}
+
+/* css for manual slide navigation---- */
+.navigation-manuaal1 {
+  position: absolute;
+  display: flex;
+  margin-top: 470px;
+  margin-left: 610px;
+  justify-content: center;
+}
+
+.manual-btna1 {
+  border: 2px solid #3177d8;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: -10px;
+}
+
+.manual-btna1:not(:last-child) {
+  margin-left: 5px;
+}
+
+.manual-btna1:not(:first-child) {
+  margin-left: 5px;
+}
+
+.manual-btna1:hover {
+  background: #1271ee;
+}
+
+.manual-btna1:active {
+  background: #1271ee;
+}
+
+#radioa11:checked ~ .firsta1 {
+  margin-left: 0;
+}
+
+#radio22:checked ~ .firsta1 {
+  margin-left: -20%;
+}
+
+#radio33:checked ~ .firsta1 {
+  margin-left: -40%;
+}
+
+.slidera11 .main_insidea1 {
+  width: 1050px;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+}
+
+.main_insidea1_left {
+  width: 45%;
+  height: 439px;
+  background: #d5ffd5;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main_insidea1_right {
+  width: 55%;
+  height: 439px;
+  background: #fff8d4;
+  // border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.right_contenta {
+  width: 410px;
+}
+
+.main_insidea1_right_para1 {
+  color: #386cf5;
+  font-weight: 700;
+  font-size: 32px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main_insidea1_right_para2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4e4e4e;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main_insidea1 {
+  width: 1050px;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+}

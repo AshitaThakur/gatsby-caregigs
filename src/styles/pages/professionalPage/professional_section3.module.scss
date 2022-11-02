@@ -1,0 +1,42 @@
+.exam_main {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.exam_para {
+  font-weight: 600;
+  font-size: 32px;
+  color: #2f2f36;
+  text-align: center;
+}
+
+.examImages {
+  display: flex;
+
+  gap: 1rem;
+  width: 70%;
+  // border: 1px solid red;
+  height: 506px;
+  margin-left: 12rem;
+}
+
+.exam_Img1,
+.exam_Img2,
+.exam_Img3 {
+  background-position: center;
+  background-size: cover;
+  height: 506px;
+  width: 35%;
+}
+
+.exam_Img1 {
+  //   background-image: url("./images/professionals/professionals_image11.png");
+}
+
+.exam_Img2 {
+  //   background-image: url("./images/professionals/professionals_image22.png");
+}
+
+.exam_Img3 {
+  //   background-image: url("./images/professionals/professionals_image33.png");
+}
